@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   location: "Lima, Peru 🇵🇪 (GMT -5)",
   locationLink: "https://www.google.com/maps/place/Lima",
   about:
-    "Mobile software engineer building impactful apps. User-centric, detail-oriented, and passionate about crafting delightful experiences. Fueled by 🍺 and a love for 🐈‍⬛.",
+    "Devoted mobile software developer constructing impactful applications with a user-focused approach. Meticulous and fervent about shaping delightful user experiences. Enthusiastic ⚽️ aficionado.",
   summary:
     "5+ years weaving cross-platform mobile marvels with Dart & Flutter. From pixel-perfect UIs to rock-solid performance, I always do my best to craft engaging experiences that captivate users. Teamwork and communication thrive in my remote orbit, ensuring quality every step of the way.",
   avatarUrl: "https://avatars.githubusercontent.com/u/22333076?v=4",
@@ -56,7 +56,8 @@ export const RESUME_DATA = {
       title: "Senior Flutter Developer → Team Lead",
       start: "2021",
       end: "Present",
-      description: "",
+      description:
+        "As a key contributor to an app with over one million users, I actively developed pivotal features using Flutter, specifically focusing on enhancing the Rewards feature within the MGM Resorts app. In my role as a Team Lead, I assumed responsibility for incident management across the entire application, ensuring seamless functionality and user satisfaction. Additionally, I played a crucial role in the hiring process, serving on the interview team to identify and onboard new developers, thereby contributing to the growth and success of the team. ",
     },
     {
       company: "Go Social",
@@ -66,7 +67,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2021",
       description:
-        "Flutter application focused on share events happen near you. On the technical side I implemented most of the test coverage on the app going from under 20% to near 90% of code coverage inside the app. 🤖",
+        "I being part of the development of a Flutter application with a primary focus on seamlessly sharing local events. From a technical standpoint, I significantly elevated the app's reliability by implementing robust testing strategies. This initiative led to a remarkable enhancement in test coverage, escalating from under 20% to nearly 90% of the app's code coverage. 🤖",
     },
     {
       company: "JustoMX",
@@ -76,7 +77,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Working with an amazing mobile team on an shopping experience for a mexican startup. Technologies: Android, Kotlin, GraphQL 🇲🇽",
+        "Collaborating with an exceptional mobile team, I actively contributed to crafting an outstanding shopping experience for a Mexican startup. Leveraging technologies such as Android, Kotlin, and GraphQL, our work aimed to redefine the e-commerce landscape, providing users with a seamless and innovative platform. 🇲🇽",
     },
     {
       company: "Mandu",
@@ -86,7 +87,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2020",
       description:
-        "Working with Flutter, Node, and Vue tyo build a internal platform for one of the biggest national companies. 🏦",
+        "Collaborating with Flutter, Node, and Vue, I spearheaded the development of an internal platform for one of the largest national companies, seamlessly integrating cutting-edge technologies. This endeavor involves creating a robust and sophisticated system that addresses the unique needs of the organization, contributing to the enhancement of its operational capabilities. 🏦",
     },
     {
       company: "Wibo",
@@ -96,7 +97,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2020",
       description:
-        "Working as a Flutter developer to build an app & web dashboard for an early stage startup using Flutter, releasing the app in record time. 🥗",
+        "In the role of a Flutter developer, I played a pivotal part in crafting both a dynamic app and a web dashboard for an early-stage startup. Demonstrating efficiency and expertise, I work with the team to release the app in record time. This achievement showcase my commitment to delivering high-quality solutions within tight timelines. 🚀",
     },
     {
       company: "New Transport S.A.",
@@ -106,7 +107,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2019",
       description:
-        "As a solo developer I successfully launched a cross-platform charge truck tracking app using Flutter. This app boasts features like GPS location and route tracking, helping the company improve operational efficiency and driver safety. 🚛",
+        "As the sole developer for a dynamic cross-platform charge truck tracking app built with Flutter, I achieved a successful launch that significantly elevated operational efficiency and enhanced driver safety for the company. The app seamlessly incorporates GPS location and route tracking functionalities, empowering the organization with real-time insights into fleet movements 🚛 ",
     },
   ],
   skills: [
@@ -122,15 +123,9 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Hotelyn",
-      techStack: [
-        "Open Source Project",
-        "Flutter",
-        "Dart",
-        "Stream SDK",
-        "GraphQL",
-        "Firebase",
-      ],
-      description: "A platform to build and grow your online business",
+      techStack: ["Open Source Project", "Flutter", "Dart", "Firebase"],
+      description:
+        "Explore a sleek Flutter demo for a hotel booking app 🏩 ❤️ Witness the synergy of code and care, delivering a polished user interface.",
       link: {
         label: "Hotelyn GitHub",
         href: "https://github.com/enzoftware/hotelyn",
@@ -140,55 +135,20 @@ export const RESUME_DATA = {
       title: "Flutter Accesibility",
       techStack: ["Side Project", "Flutter", "Dart", "Accesibility"],
       description:
-        "Sample Flutter application to demostrate accesibility into apps and how to use different screen readers,",
+        "Explore the importance of making apps universally accessible. Dive into the code to witness the principles and practices of building more inclusive applications.",
       link: {
         label: "Flutter Accesibility GitHub",
-        href: "https://github.com/enzoftware/flutter_accessibility_expense_tracker",
+        href: "https://github.com/enzoftware/flutter_accessibility",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Android IPTV",
+      techStack: ["Side Project", "Android", "Java", "Kotlin"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Explore the intricacies of parsing M3U/M3U8 files from the internet, offering a hands-on example of seamless integration.",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "android_iptv",
+        href: "https://github.com/enzoftware/android_iptv",
       },
     },
   ],
